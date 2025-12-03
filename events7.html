@@ -90,6 +90,36 @@
     ================================================== -->
     <section class="page-content">
 
+        
+    <!-- Dropdown menu 
+    ================================================== -->
+    <select id="pageDropdown">
+        <option value="">-- Choose a page --</option>
+        <option value="events.html">Page 1</option>
+        <option value="events2.html">Page 2</option>
+        <option value="events3.html">Page 3</option>
+        <option value="events4.html">Page 4</option>
+        <option value="events5.html">Page 5</option>
+        <option value="events6.html">Page 6</option>
+        <option value="events7.html">Page 7</option>
+        <option value="events8.html">Page 8</option>
+        <option value="festivals.html">Festivals</option>
+    </select>
+
+    <script>
+        // Get the dropdown element
+        const dropdown = document.getElementById('pageDropdown');
+
+        // Listen for changes
+        dropdown.addEventListener('change', function () {
+            const selectedPage = this.value;
+            if (selectedPage) {
+                // Navigate to the selected page
+                window.location.href = selectedPage;
+            }
+        });
+    </script> <!-- end Dropdown menu -->
+
         <div class="row wide block-large-1-2 block-900-full events-list">
             <div class="column events-list__item">
                 <h3 class="display-1 events-list__item-title">
