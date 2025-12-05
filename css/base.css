@@ -156,7 +156,7 @@ textarea {
 	font-family: inherit;  /* 1 */
 	font-size: 100%;  /* 1 */
 	line-height: 1.15;  /* 1 */
-	margin: 5em;  /* 2 */
+	/* margin: 0em;   2 */
 }
 
 /* Show the overflow in IE.
@@ -329,6 +329,14 @@ iframe,
 object {
 	max-width: 100%;
 	height: auto;
+}
+
+iframe {
+	width: 45em;
+	height: 25em;
+	overflow: auto;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
 }
 
 /* ------------------------------------------------------------------- 
