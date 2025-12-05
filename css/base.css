@@ -332,11 +332,9 @@ object {
 }
 
 iframe {
-	width: 45em;
+	width: 50em;
 	height: 25em;
 	overflow: auto;
-	padding-left: 2.5em;
-	padding-right: 2.5em;
 }
 
 /* ------------------------------------------------------------------- 
