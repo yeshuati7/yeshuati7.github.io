@@ -333,8 +333,9 @@ object {
 
 iframe {
 	width: 50em;
-	height: 25em;
+	height: 30em;
 	overflow: auto;
+	font-family:"Lora", serif;
 }
 
 /* ------------------------------------------------------------------- 
