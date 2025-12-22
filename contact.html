@@ -133,8 +133,75 @@
                 <br>
                 <!-- <h2>Prayer Request.</h2> -->
 
-                <div id="wufoo-z1o2smou11vbnff"> Fill out my <a href="https://yeshuati7.wufoo.com/forms/z1o2smou11vbnff">online form</a>. </div> <script type="text/javascript"> var z1o2smou11vbnff; (function(d, t) { var s = d.createElement(t), options = { 'userName':'yeshuati7', 'formHash':'z1o2smou11vbnff', 'autoResize':true, 'height':'523', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z1o2smou11vbnff = new WufooForm(); z1o2smou11vbnff.initialize(options); z1o2smou11vbnff.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
+                <div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
+                <div class="container mx-auto">
+                    <div class="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+                    <div class="text-center">
+                        <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
+                        Prayer Request
+                        </h1>
+                        <p class="text-gray-400 dark:text-gray-400">
+                        Fill up the form below to send us a message.
+                        </p>
+                    </div>
+                    <div class="m-7">
+                        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                        <input type="hidden" name="access_key" value="45ddd0c6-6a04-4847-82e5-e43ad4c7ac83" />
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                        <!-- Google reCaptcha v3: To Prevent SPAM Submission.PRO Plan only -->
+                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 
+                        <div class="mb-6">
+                            <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Full Name</label>
+                            <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                        </div>
+                        <div class="mb-6">
+                            <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Phone Number</label>
+                            <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                        </div>
+                        <label for="confidentiality">Select a Choice:</label>
+                                <select id="confidentiality" name="confidentiality">
+                                    <option value="confidential">Confidential</option>
+                                    <option value="public">Public</option>
+                                </select>
+                        <div class="mb-6">
+                            <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
+
+                            <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+                        </div>
+                        <div class="mb-6">
+                            <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                            Send Message
+                            </button>
+                        </div>
+                        <p class="text-base text-center text-gray-400" id="result"></p>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Needed for Recaptcha -->
+
+                <script src="https://www.google.com/recaptcha/api.js?render=45ddd0c6-6a04-4847-82e5-e43ad4c7ac83"></script>
+                <script>
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('45ddd0c6-6a04-4847-82e5-e43ad4c7ac83', {
+                    action: 'contact'
+                    }).then(function(token) {
+                    recaptchaResponse.value = token;
+                    });
+                });
+                </script>
+
+
+                <!-- <div id="wufoo-z1o2smou11vbnff"> Fill out my <a href="https://yeshuati7.wufoo.com/forms/z1o2smou11vbnff">online form</a>. </div> <script type="text/javascript"> var z1o2smou11vbnff; (function(d, t) { var s = d.createElement(t), options = { 'userName':'yeshuati7', 'formHash':'z1o2smou11vbnff', 'autoResize':true, 'height':'523', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z1o2smou11vbnff = new WufooForm(); z1o2smou11vbnff.initialize(options); z1o2smou11vbnff.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script> -->
+                
                 <!-- <form name="contactForm" id="contactForm" method="post" action="" autocomplete="off">
                     <fieldset>
 
