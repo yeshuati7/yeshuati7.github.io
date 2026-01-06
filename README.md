@@ -1,12 +1,12 @@
 
-# T'Shuvah Yisrael
+# :star_of_david: T'Shuvah Yisrael
 
-## __Home__
-[Live Site](https://yeshuati.com)
+## :place_of_worship: __Home__
+:globe_with_meridians: [Live Site](https://yeshuati.com)
 
 Upcoming Portions & Festivals
 
-## __About__
+## :menorah: __About__
 
 _incomplete_
 
@@ -14,7 +14,15 @@ Images of Team
 
 Description of Messianic beliefs
 
-## __Events__
+## :calendar: __Events__
+### Google Calendar
+```html
+ <!-- Google Calendar
+    ================================================== -->
+    <p align="center">
+        <iframe src="https://calendar.google.com/calendar/embed?src=c_0f07b8a8ee357070580304768fefc555e6ac24da949cf0254ac24eed48dd91a2%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
+    </p>
+```
 Page Number Navigation Flow Chart
 ```mermaid
 graph TD;
@@ -72,19 +80,8 @@ graph TD;
     festivals.html-->events6.html
     festivals.html-->events7.html
     festivals.html-->events8.html;
-
 ```
-
-### Google Calendar
-```html
- <!-- Google Calendar
-    ================================================== -->
-    <p align="center">
-        <iframe src="https://calendar.google.com/calendar/embed?src=c_0f07b8a8ee357070580304768fefc555e6ac24da949cf0254ac24eed48dd91a2%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
-    </p>
-```
-
-## __Contact__
+## :information_source: __Contact__
 [Web3Form Settings](https://app.web3forms.com/forms/45ddd0c6-6a04-4847-82e5-e43ad4c7ac83/setup)
 
 Flow Chart
@@ -103,7 +100,7 @@ graph TD;
     <meta http-equiv="refresh" content="5;url=/"/>
 ```
 
-## __Style__
+## :sparkles: __Style__
 ### Font Awesome
 ```html
 <!-- fontawesome
@@ -117,7 +114,7 @@ graph TD;
 <img src="images/logo.png" alt="Homepage" style="margin-top: 138px;">
 ```
 
-## __Copyright__
+## :copyright: __Copyright__
 ```html
 <div class="column ss-copyright">
 <span>© Copyright T'shuvah Yisrael 2025</span>
