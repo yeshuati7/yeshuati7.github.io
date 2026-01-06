@@ -1,27 +1,14 @@
 
-  # T'Shuvah Yisrael
+# T'Shuvah Yisrael
+
+## __Home__
+[Live Site](https://yeshuati.com)
+
+## __About__
 
 
-[Contact Page Web3Form Settings](https://app.web3forms.com/forms/45ddd0c6-6a04-4847-82e5-e43ad4c7ac83/setup)
----
-Flow Chart
-```mermaid
-graph TD;
-    https://yeshuati.com/contact.html-->https://yeshuati.com/success.html;
-    https://yeshuati.com/contact.html-->https://api.web3forms.com/submit;
-    https://yeshuati.com/success.html-->https://yeshuati.com/;
-    https://api.web3forms.com/submit-->https://yeshuati.com/contact.html;
-```
-
-404.html Page Refresh
-``` 404.html Page Refresh
-<!-- meta refresh page after 5 seconds
-    ================================================== -->
-    <meta http-equiv="refresh" content="5;url=/"/>
-```
-## Page Number Navigation
-
-Flow Chart
+## __Events__
+Page Number Navigation Flow Chart
 ```mermaid
 graph TD;
     events.html-->events2.html
@@ -81,21 +68,45 @@ graph TD;
 
 ```
 
-Font Awesome
+## __Contact__
+[Web3Form Settings](https://app.web3forms.com/forms/45ddd0c6-6a04-4847-82e5-e43ad4c7ac83/setup)
+
+Flow Chart
+```mermaid
+graph TD;
+    https://yeshuati.com/contact.html-->https://yeshuati.com/success.html;
+    https://yeshuati.com/contact.html-->https://api.web3forms.com/submit;
+    https://yeshuati.com/success.html-->https://yeshuati.com/;
+    https://api.web3forms.com/submit-->https://yeshuati.com/contact.html;
+```
+
+### 404 Page Refresh
+```html
+<!-- meta refresh page after 5 seconds
+    ================================================== -->
+    <meta http-equiv="refresh" content="5;url=/"/>
+```
+
+## __Style__
+### Font Awesome
 ```html
 <!-- fontawesome
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 ```
-Resized/Repositioned Logo
+### Resized/Repositioned Logo
 ```html
+<!-- header
+    ================================================== -->
 <img src="images/logo.png" alt="Homepage" style="margin-top: 138px;">
 ```
 
-StyleShout & Copyright
+## __Copyright__
 ```html
+<div class="column ss-copyright">
 <span>© Copyright T'shuvah Yisrael 2025</span>
 <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+</div>
 ```
 This is a code bundle for T'Shuvah Yisrael. The original project is available [here](https://www.figma.com/design/un6FWXhTD2JlhdHcHQ1Q20/Church-Website-Creation--Community-).
 
