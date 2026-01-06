@@ -1,12 +1,12 @@
 
 # :star_of_david: T'Shuvah Yisrael
 
-## :place_of_worship: __Home__
-:globe_with_meridians: [Live Site](https://yeshuati.com)
+## :place_of_worship: [__Home__](index.html)
+[Live Site](https://yeshuati.com)
 
 Upcoming Portions & Festivals
 
-## :menorah: __About__
+## :menorah: [__About__](about.html)
 
 _incomplete_
 
@@ -14,7 +14,7 @@ Images of Team
 
 Description of Messianic beliefs
 
-## :calendar: __Events__
+## :calendar: [__Events__](events.html)
 ### Google Calendar
 ```html
  <!-- Google Calendar
@@ -81,7 +81,7 @@ graph TD;
     festivals.html-->events7.html
     festivals.html-->events8.html;
 ```
-## :information_source: __Contact__
+## :information_source: [__Contact__](contact.html)
 [Web3Form Settings](https://app.web3forms.com/forms/45ddd0c6-6a04-4847-82e5-e43ad4c7ac83/setup)
 
 Flow Chart
@@ -100,7 +100,7 @@ graph TD;
     <meta http-equiv="refresh" content="5;url=/"/>
 ```
 
-## :sparkles: __Style__
+## :sparkles: [__Style__](style.html)
 ### Font Awesome
 ```html
 <!-- fontawesome
