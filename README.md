@@ -4,8 +4,15 @@
 ## __Home__
 [Live Site](https://yeshuati.com)
 
+Upcoming Portions & Festivals
+
 ## __About__
 
+_incomplete_
+
+Images of Team
+
+Description of Messianic beliefs
 
 ## __Events__
 Page Number Navigation Flow Chart
@@ -66,6 +73,15 @@ graph TD;
     festivals.html-->events7.html
     festivals.html-->events8.html;
 
+```
+
+### Google Calendar
+```html
+ <!-- Google Calendar
+    ================================================== -->
+    <p align="center">
+        <iframe src="https://calendar.google.com/calendar/embed?src=c_0f07b8a8ee357070580304768fefc555e6ac24da949cf0254ac24eed48dd91a2%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
+    </p>
 ```
 
 ## __Contact__
