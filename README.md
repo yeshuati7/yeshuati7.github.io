@@ -4,6 +4,15 @@
 
 [Contact Page Web3Form Settings](https://app.web3forms.com/forms/45ddd0c6-6a04-4847-82e5-e43ad4c7ac83/setup)
 ---
+Flow Chart
+```mermaid
+graph TD;
+    https://yeshuati.com/contact.html-->https://yeshuati.com/success.html;
+    https://yeshuati.com/contact.html-->https://api.web3forms.com/submit;
+    https://yeshuati.com/success.html-->https://yeshuati.com/;
+    https://api.web3forms.com/submit-->https://yeshuati.com/contact.html;
+
+```
 
 404.html Page Refresh
 ``` 404.html Page Refresh
@@ -11,6 +20,8 @@
     ================================================== -->
     <meta http-equiv="refresh" content="5;url=/"/>
 ```
+
+
 Font Awesome
 ```html
 <!-- fontawesome
