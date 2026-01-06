@@ -57,7 +57,6 @@ graph TD;
 
     events6.html-->events2.html
     events6.html-->events5.html
-    events6.html-->events6.html
     events6.html-->events7.html
     events6.html-->events8.html
     events6.html-->festivals.html;
@@ -65,7 +64,6 @@ graph TD;
     events7.html-->events2.html
     events7.html-->events5.html
     events7.html-->events6.html
-    events7.html-->events7.html
     events7.html-->events8.html
     events7.html-->festivals.html;
 
@@ -73,7 +71,6 @@ graph TD;
     events8.html-->events5.html
     events8.html-->events6.html
     events8.html-->events7.html
-    events8.html-->events8.html
     events8.html-->festivals.html;
 
     festivals.html-->events2.html
