@@ -143,9 +143,7 @@ graph TD;
     <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
     </div>
 ```
-This is a code bundle for T'Shuvah Yisrael. The original project is available [here](https://www.figma.com/design/un6FWXhTD2JlhdHcHQ1Q20/Church-Website-Creation--Community-).
-
-More directly the Hesed template can be found [here](https://themewagon.com/themes/free-html5-church-website-template-hesed/#:~:text=Hesed%20%2D%20Free%20Responsive%20HTML5%20Church,Iconmonstr%20font%20icons).
+This is a code bundle for T'Shuvah Yisrael. The original project is available [here](https://www.figma.com/design/un6FWXhTD2JlhdHcHQ1Q20/Church-Website-Creation--Community-). The Hesed template can be found [here](https://themewagon.com/themes/free-html5-church-website-template-hesed/#:~:text=Hesed%20%2D%20Free%20Responsive%20HTML5%20Church,Iconmonstr%20font%20icons).
 
 [Developed by Isaac V.](https://github.com/vanmeciv/)
 ---
