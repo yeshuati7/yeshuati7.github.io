@@ -115,7 +115,6 @@ graph TD;
 
 ### Social
 
-### Font Awesome
 ```html
 <!-- fontawesome
     ================================================== -->
