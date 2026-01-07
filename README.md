@@ -4,7 +4,7 @@
 ## :place_of_worship: [__Home__](index.html)
 [Live Site](https://yeshuati.com)
 
-Upcoming Portions & Festivals
+Upcoming Portions & Festivals Rotate Every 4-6 Weeks
 
 ## :menorah: [__About__](about.html)
 
@@ -103,6 +103,10 @@ graph TD;
 ## :sparkles: [__Style__](style.html)
 
 ### Resized/Repositioned Logo
+
+<img src="favicon.ico" alt="Logo" width="30" />
+</a>
+
 ```html
 <!-- header
     ================================================== -->
