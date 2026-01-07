@@ -101,6 +101,14 @@ graph TD;
 ```
 
 ## :sparkles: [__Style__](style.html)
+
+### Resized/Repositioned Logo
+```html
+<!-- header
+    ================================================== -->
+<img src="images/logo.png" alt="Homepage" style="margin-top: 138px;">
+```
+
 ### Social
 
 ### Font Awesome
@@ -121,18 +129,6 @@ graph TD;
 </a>&nbsp;&nbsp;<a href="tel:+12539933413">
   <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/840c215f894f429b26b8c1402a65da835dc5a450/svgs/solid/phone.svg" alt="Conference" width="30" />
 </a>
-
-
-
-
-
-
-### Resized/Repositioned Logo
-```html
-<!-- header
-    ================================================== -->
-<img src="images/logo.png" alt="Homepage" style="margin-top: 138px;">
-```
 
 ## :copyright: __Copyright__
 ```html
