@@ -101,12 +101,32 @@ graph TD;
 ```
 
 ## :sparkles: [__Style__](style.html)
+### Social
+
 ### Font Awesome
 ```html
 <!-- fontawesome
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 ```
+
+
+
+[![YouTube](https://github.com/CLorant/readme-social-icons/raw/main/large/filled/youtube.svg)](https://www.youtube.com/@Teshuvah_Yisrael)&nbsp;&nbsp;<a href="mailto:cheshet7@gmail.com">
+  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/envelope.svg" alt="Email" width="30" />
+</a>&nbsp;&nbsp;<a href="https://cash.app/$cheshet">
+  <img src="https://github.com/user-attachments/assets/afcc583c-507e-4ee4-b6e5-869b1c8c0413" alt="CashApp" width="30" />
+</a>&nbsp;&nbsp;<a href="https://www.paypal.com/ncp/payment/Q4MWQP5D86VVW">
+  <img src="https://avatars.githubusercontent.com/u/476675?s=200&v=4" alt="PayPal" width="30" />
+</a>&nbsp;&nbsp;<a href="tel:+12539933413">
+  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/840c215f894f429b26b8c1402a65da835dc5a450/svgs/solid/phone.svg" alt="Conference" width="30" />
+</a>
+
+
+
+
+
+
 ### Resized/Repositioned Logo
 ```html
 <!-- header
