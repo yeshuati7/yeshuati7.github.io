@@ -106,7 +106,7 @@ graph TD;
 ```html
 <!-- header
     ================================================== -->
-<img src="images/logo.png" alt="Homepage" style="margin-top: 138px;">
+    <img src="images/logo.png" alt="Homepage" style="margin-top: 138px;">
 ```
 
 ### Social
@@ -132,10 +132,12 @@ graph TD;
 
 ## :copyright: __Copyright__
 ```html
-<div class="column ss-copyright">
-<span>© Copyright T'shuvah Yisrael 2025</span>
-<span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
-</div>
+<!-- footer
+    ================================================== -->
+    <div class="column ss-copyright">
+    <span>© Copyright T'shuvah Yisrael 2025</span>
+    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+    </div>
 ```
 This is a code bundle for T'Shuvah Yisrael. The original project is available [here](https://www.figma.com/design/un6FWXhTD2JlhdHcHQ1Q20/Church-Website-Creation--Community-).
 
