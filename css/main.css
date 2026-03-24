@@ -1687,6 +1687,10 @@ input::-moz-focus-inner {
   width: 2.6rem;
 }
 
+.events-list__meta .events-list__meta-price::before {
+  background-image: url(../images/icons/icon-dollar-sign.svg);
+}
+
 /* ------------------------------------------------------------------- 
  * ## block list
  * ------------------------------------------------------------------- */
