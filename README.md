@@ -138,7 +138,7 @@ graph TD;
 <!-- footer
     ================================================== -->
     <div class="column ss-copyright">
-    <span>© Copyright T'shuvah Yisrael 2025</span>
+    <span>© Copyright T'shuvah Yisrael 2026</span>
     <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
     </div>
 ```
