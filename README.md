@@ -2,7 +2,7 @@
 # :star_of_david: Beit T'Shuvah
 
 ## :place_of_worship: [__Home__](index.html)
-[Live Site](https://yeshuati.com)
+[Live Site](https://tshuvah.org)
 
 Upcoming Portions & Festivals Rotate Every 4-6 Weeks
 
