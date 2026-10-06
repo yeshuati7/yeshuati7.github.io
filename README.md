@@ -1,5 +1,5 @@
 
-# :star_of_david: T'Shuvah Yisrael
+# :star_of_david: Beit T'Shuvah
 
 ## :place_of_worship: [__Home__](index.html)
 [Live Site](https://yeshuati.com)
@@ -87,10 +87,10 @@ graph TD;
 Flow Chart
 ```mermaid
 graph TD;
-    https://yeshuati.com/contact.html-->https://yeshuati.com/success.html;
-    https://yeshuati.com/contact.html-->https://api.web3forms.com/submit;
-    https://yeshuati.com/success.html-->https://yeshuati.com/;
-    https://api.web3forms.com/submit-->https://yeshuati.com/contact.html;
+    https://tshuvah.org/contact.html-->https://tshuvah.org/success.html;
+    https://tshuvah.org/contact.html-->https://api.web3forms.com/submit;
+    https://tshuvah.org/success.html-->https://tshuvah.org/;
+    https://api.web3forms.com/submit-->https://tshuvah.org/contact.html;
 ```
 
 ### 404 Page Refresh
@@ -142,7 +142,7 @@ graph TD;
     <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
     </div>
 ```
-This is a code bundle for T'Shuvah Yisrael. The original project is available [here](https://www.figma.com/design/un6FWXhTD2JlhdHcHQ1Q20/Church-Website-Creation--Community-). The Hesed template can be found [here](https://themewagon.com/themes/free-html5-church-website-template-hesed/#:~:text=Hesed%20%2D%20Free%20Responsive%20HTML5%20Church,Iconmonstr%20font%20icons).
+This is a code bundle for Beit T'Shuvah. The original project is available [here](https://www.figma.com/design/un6FWXhTD2JlhdHcHQ1Q20/Church-Website-Creation--Community-). The Hesed template can be found [here](https://themewagon.com/themes/free-html5-church-website-template-hesed/#:~:text=Hesed%20%2D%20Free%20Responsive%20HTML5%20Church,Iconmonstr%20font%20icons).
 
 [Developed by Isaac V.](https://github.com/vanmeciv/)
 ---
